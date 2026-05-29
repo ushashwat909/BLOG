@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Pixel &amp; Prose</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">P</span> Pixel&nbsp;&amp;&nbsp;Prose
+      </a>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#blog">Articles</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="mobile-menu" id="menu-toggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="7" x2="20" y2="7"/>
+          <line x1="4" y1="12" x2="20" y2="12"/>
+          <line x1="4" y1="17" x2="20" y2="17"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <header class="page-hero">
+    <div class="wrap">
+      <p class="hero-label">Contact</p>
+      <h1>Let's start a conversation.</h1>
+      <p>Have a question, feedback, or an idea for a guest post? We'd love to hear from you. Reach out using the form below or connect with us on our social channels.</p>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <main class="page-content">
+    <div class="contact-grid">
+      
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Get in touch</h2>
+        <p>We try to respond to all inquiries within 48 hours. For partnership or sponsorship inquiries, please select the appropriate subject in the form.</p>
+        
+        <ul class="contact-channels">
+          <li>
+            <div class="channel-icon">✉️</div>
+            <div>
+              <div class="channel-label">Email</div>
+              <div class="channel-value">hello@pixelandprose.dev</div>
+            </div>
+          </li>
+          <li>
+            <div class="channel-icon">🐦</div>
+            <div>
+              <div class="channel-label">Twitter</div>
+              <div class="channel-value">@PixelAndProse</div>
+            </div>
+          </li>
+          <li>
+            <div class="channel-icon">📍</div>
+            <div>
+              <div class="channel-label">Location</div>
+              <div class="channel-value">San Francisco, CA (Remote)</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Send a message</h2>
+        <form id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Jane Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="jane@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="How can we help?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">
+            Send Message <span class="arrow">→</span>
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <p>© 2026 Pixel &amp; Prose</p>
+        <ul class="footer-links">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

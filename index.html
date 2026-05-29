@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixel &amp; Prose — Perspectives on Code &amp; Design</title>
+  <meta name="description" content="Pixel & Prose is a design and technology blog exploring the intersection of code, creativity, and modern digital craftsmanship." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ─── Nav ─────────────────────────────────── -->
+  <nav class="nav" id="main-nav">
+    <div class="wrap">
+      <a href="index.html" class="logo" id="brand-link">
+        <span class="logo-mark">P</span>
+        Pixel&nbsp;&amp;&nbsp;Prose
+      </a>
+
+      <ul class="nav-list" id="nav-links">
+        <li><a href="index.html" id="nav-home">Home</a></li>
+        <li><a href="index.html#blog" id="nav-articles">Articles</a></li>
+        <li><a href="about.html" id="nav-about">About</a></li>
+        <li><a href="contact.html" id="nav-contact">Contact</a></li>
+      </ul>
+
+      <button class="mobile-menu" id="menu-toggle" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="7" x2="20" y2="7"/>
+          <line x1="4" y1="12" x2="20" y2="12"/>
+          <line x1="4" y1="17" x2="20" y2="17"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── Hero ────────────────────────────────── -->
+  <header class="hero" id="hero">
+    <div class="wrap">
+      <p class="hero-label">The Blog</p>
+      <h1>Perspectives on<br>Code &amp; Design</h1>
+      <p>Thoughtful essays on engineering craft, visual design, and the culture of building software that lasts.</p>
+    </div>
+  </header>
+
+  <!-- ─── Posts ───────────────────────────────── -->
+  <section class="posts" id="blog">
+    <div class="wrap">
+
+      <div class="section-head">
+        <h2>Latest Articles</h2>
+        <hr />
+      </div>
+
+      <div class="grid" id="blog-grid">
+
+        <!-- Card 1 -->
+        <article class="card" id="post-1">
+          <div class="card-img">
+            <a href="article.html"><img src="images/post-design.png" alt="Abstract geometric composition in indigo and teal tones" loading="lazy" /></a>
+          </div>
+          <div class="card-content">
+            <span class="tag tag--design">Design</span>
+            <h3 class="card-title"><a href="article.html">The Quiet Revolution of Invisible Interfaces</a></h3>
+            <div class="card-meta">
+              <span>Elena Vargas</span>
+              <span class="dot"></span>
+              <time datetime="2026-05-29">May 29, 2026</time>
+            </div>
+            <p class="card-excerpt">
+              The best interfaces are the ones you never notice. We explore how ambient design
+              principles are reshaping enterprise tools — replacing heavy dashboards with calm,
+              context-aware surfaces.
+            </p>
+            <a href="article.html" class="read-more" id="read-post-1">Read Article <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card" id="post-2">
+          <div class="card-img">
+            <a href="article.html"><img src="images/post-tech.png" alt="Warm abstract art with coral and amber hues" loading="lazy" /></a>
+          </div>
+          <div class="card-content">
+            <span class="tag tag--tech">Engineering</span>
+            <h3 class="card-title"><a href="article.html">Why Your Build Pipeline Is Your Most Important Product</a></h3>
+            <div class="card-meta">
+              <span>Marcus Chen</span>
+              <span class="dot"></span>
+              <time datetime="2026-05-22">May 22, 2026</time>
+            </div>
+            <p class="card-excerpt">
+              Developer velocity isn't about writing code faster — it's about removing
+              the friction around it. A deep-dive into modern CI/CD architectures that
+              cut deploy times without sacrificing safety.
+            </p>
+            <a href="article.html" class="read-more" id="read-post-2">Read Article <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card" id="post-3">
+          <div class="card-img">
+            <a href="article.html"><img src="images/post-career.png" alt="Cool-toned abstract art in teal and emerald" loading="lazy" /></a>
+          </div>
+          <div class="card-content">
+            <span class="tag tag--career">Career</span>
+            <h3 class="card-title"><a href="article.html">The Staff Engineer's Guide to Technical Influence</a></h3>
+            <div class="card-meta">
+              <span>Priya Anand</span>
+              <span class="dot"></span>
+              <time datetime="2026-05-15">May 15, 2026</time>
+            </div>
+            <p class="card-excerpt">
+              Beyond the IC track lies a landscape of architectural decisions, cross-team
+              alignment, and strategic thinking. The habits that separate senior engineers
+              from true technical leaders.
+            </p>
+            <a href="article.html" class="read-more" id="read-post-3">Read Article <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer ──────────────────────────────── -->
+  <footer class="footer" id="footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <p>© 2026 Pixel &amp; Prose</p>
+        <ul class="footer-links">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
